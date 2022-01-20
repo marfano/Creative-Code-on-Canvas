@@ -9,13 +9,13 @@ const sketch = () => {
     context.fillStyle = '#eeeeee';
     context.fillRect(0, 0, width, height);
     
-    const w   = width  * 0.10; // 10%
+    const w   = width  * 0.10; 
     const h   = height * 0.10;
     const gap = width  * 0.05;
     const ix  = width  * 0.17; // initial x - 100/500=17%
     const iy  = height * 0.17; // initial y
     
-    const off = width * 0.02; // 16
+    const off = width * 0.02; 
     
     let x, y;
     
